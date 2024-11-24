@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="header">
-        
-        <h1><b>  My To Do List</b> <img src="list.png" width="40px" height="40px" alt=""></h1> 
-       
-        <input type="text" id="task" placeholder="   type in your to do to add">
-        <button onclick="addvalue()">Add to do</button>
-    
-        
-      
+      <h1>
+        <b> My To Do List</b>
+        <img src="list.png" width="40px" height="40px" alt="" />
+      </h1>
+
+      <input type="text" id="task" placeholder="   type in your to do to add" />
+      <button onclick="addvalue()">Add to do</button>
     </div>
-<!-- <div class="input"></div>
+    <!-- <div class="input"></div>
     <input type="text" id="task" value="type in your to do to add">
     <button onclick="addvalue()">Add to do</button>
 </div> -->
-   <div class="todos">
-     </div>
+    <div class="container2">
+      <div class="todos">
+        <p>Incomplete Task</p>
+      </div>
+      <div class="completed-todos">
+        <p>Completed Task</p>
+      </div>
+    </div>
 
-    
-   <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
